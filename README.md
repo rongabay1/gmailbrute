@@ -46,7 +46,7 @@ python email_bruteforce.py user* --domain gmail.com --smtp-port 587 --output-fil
 - **`--smtp-port`**: The SMTP server port to use (default: 25, can be set to 587 for STARTTLS).
 - **`--suffix`**: (Optional) Appends a domain suffix to the email (e.g., `--suffix @gmail.com`).
 - **`--output-file`**: Specifies the file to save valid emails (default: `valid_emails.txt`).
-- **`--delay`**: (Optional) Time (in seconds) to delay between SMTP checks (default: 1 second).
+
 
 
 ```bash
