@@ -56,4 +56,4 @@ This tool is intended for educational and ethical research purposes only.
 The use of this script is strictly for learning how email validation via SMTP works and should only be applied in environments where you have explicit permission to test. Any misuse or illegal activity resulting from the use of this script is the responsibility of the user. The author assumes no liability for any damages or legal consequences that arise from the use of this tool.
 
 ## Contributing to a Project
-@[ronen1n](https://github.com/ronen1n)
+[ronen1n](https://github.com/ronen1n)
