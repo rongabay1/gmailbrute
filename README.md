@@ -50,7 +50,7 @@ proxychains python gmailbrute.py user* --domain gmail.com --smtp-port 587 --outp
 
 
 ```bash
-proxychains python gmailbrute.py john* --domain protonmail.com --smtp-port 587 --suffix @protonmail.com --output-file found_emails.txt --delay 3
+proxychains python gmailbrute.py user* --domain protonmail.com --smtp-port 587 --suffix @protonmail.com --output-file found_emails.txt 
 ```
 ## Disclaimer
 This tool is intended for educational and ethical research purposes only.
