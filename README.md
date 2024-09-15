@@ -23,8 +23,8 @@ This Python script is designed to brute-force email addresses using SMTP validat
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/email-bruteforce-smtp.git
-   cd email-bruteforce-smtp
+   git clone https://github.com/rongabay1/gmailbrute.git
+   cd gmailbrute
 2. Install the required Python packages (if not already installed):
 ```bash
 pip install -r requirements.txt  # If you have additional dependencies to add
