@@ -36,7 +36,7 @@ To run the brute-forcing script, use the following format:
 
 ```bash
 python gmailbrute.py <pattern> --domain <domain> [options]
-python email_bruteforce.py user* --domain gmail.com --smtp-port 587 --output-file valid_emails.txt
+python gmailbrute.py user* --domain gmail.com --smtp-port 587 --output-file valid_emails.txt
 ```
 
 ## Available Options
@@ -50,7 +50,7 @@ python email_bruteforce.py user* --domain gmail.com --smtp-port 587 --output-fil
 
 
 ```bash
-python email_bruteforce.py john* --domain protonmail.com --smtp-port 587 --suffix @protonmail.com --output-file found_emails.txt --delay 3
+python gmailbrute.py john* --domain protonmail.com --smtp-port 587 --suffix @protonmail.com --output-file found_emails.txt --delay 3
 ```
 ## Disclaimer
 This tool is intended for educational and ethical research purposes only.
