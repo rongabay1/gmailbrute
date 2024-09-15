@@ -39,13 +39,15 @@ python gmailbrute.py <pattern> --domain <domain> [options]
 python email_bruteforce.py user* --domain gmail.com --smtp-port 587 --output-file valid_emails.txt
 ```
 
-Available Options:
-pattern: The email pattern to brute-force (e.g., user*1 where * is replaced by brute-forced characters).
---domain: The email domain to target (e.g., gmail.com).
---smtp-port: The SMTP server port to use (default: 25, can be set to 587 for STARTTLS).
---suffix: (Optional) Appends a domain suffix to the email (e.g., --suffix @gmail.com).
---output-file: Specifies the file to save valid emails (default: valid_emails.txt).
---delay: (Optional) Time (in seconds) to delay between SMTP checks (default: 1 second).
+## Available Options
+
+- **`pattern`**: The email pattern to brute-force (e.g., `user*1` where `*` is replaced by brute-forced characters).
+- **`--domain`**: The email domain to target (e.g., `gmail.com`).
+- **`--smtp-port`**: The SMTP server port to use (default: 25, can be set to 587 for STARTTLS).
+- **`--suffix`**: (Optional) Appends a domain suffix to the email (e.g., `--suffix @gmail.com`).
+- **`--output-file`**: Specifies the file to save valid emails (default: `valid_emails.txt`).
+- **`--delay`**: (Optional) Time (in seconds) to delay between SMTP checks (default: 1 second).
+
 
 ```bash
 python email_bruteforce.py john* --domain protonmail.com --smtp-port 587 --suffix @protonmail.com --output-file found_emails.txt --delay 3
