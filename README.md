@@ -35,8 +35,8 @@ pip install -r requirements.txt  # If you have additional dependencies to add
 To run the brute-forcing script, use the following format:
 
 ```bash
-python gmailbrute.py <pattern> --domain <domain> [options]
-python gmailbrute.py user* --domain gmail.com --smtp-port 587 --output-file valid_emails.txt
+proxychains python gmailbrute.py <pattern> --domain <domain> [options]
+proxychains python gmailbrute.py user* --domain gmail.com --smtp-port 587 --output-file valid_emails.txt
 ```
 
 ## Available Options
@@ -50,7 +50,7 @@ python gmailbrute.py user* --domain gmail.com --smtp-port 587 --output-file vali
 
 
 ```bash
-python gmailbrute.py john* --domain protonmail.com --smtp-port 587 --suffix @protonmail.com --output-file found_emails.txt --delay 3
+proxychains python gmailbrute.py john* --domain protonmail.com --smtp-port 587 --suffix @protonmail.com --output-file found_emails.txt --delay 3
 ```
 ## Disclaimer
 This tool is intended for educational and ethical research purposes only.
